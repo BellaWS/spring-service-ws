@@ -36,6 +36,11 @@ public class Controller {
         log.debug("debug info message = {}", logEntityTest);
         log.warn("warn info message = {}", logEntityTest);
 
+        log.info("normal info message = {}",logEntityTest);
+        log.error("error info message = {}",logEntityTest);
+        log.debug("debug info message = {}", logEntityTest);
+        log.warn("warn info message = {}", logEntityTest);
+
         log.warn(logEntityTest.toString());
     //    log.info(JsonUtil.toJson(logEntityTest));
         logEntityTest.setLogInfo("only only test test");
